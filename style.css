@@ -1,0 +1,167 @@
+/*colors and fonts */ 
+
+
+
+
+body{
+	
+	background-color:rgb(230,230,230);
+	color:rgb(50,50,50);
+	font-family: Helvetica;
+	font-size: 15px;
+
+}
+
+h1,h2, h3{
+	font-family: Courier
+}
+/*so dont need to put it in separate groups */
+
+h1{
+	color: rgb(50,50,50);
+	letter-spacing: 0px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+
+h2{
+	color: rgb(100,100,100);
+	font-size: 24px; 
+	font-weight:0;
+}
+
+/*a{
+	text-decoration: none;
+	font-weight: bold;
+	color:red;
+
+}
+
+a:hover {
+	color:yellow;
+}
+
+/*custom design with class*/
+
+.intro-paragraph{
+	font-size:13px;
+	line-height: 15px;
+}
+
+.container{
+	width:700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px){
+	.container{width:600px;
+	}
+}
+
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px;
+		/* background-color: teal; */
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding:30px;
+	border-radius: 4px;
+	box-shadow:0 10px 30px rgba(0,0,0,0.1);
+	margin:20px 0px;
+	border-radius: 4px 
+	text-align: center;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+.button-blue{
+	background-color: #39a9cb;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px
+}
+
+.button-blue:hover {
+	background-color: grey;
+	color: white;
+}
+
+.list-inline {
+	list-style: none; /*get rid of bullet point*/
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display: inline;
+	padding:10px;
+	text-align: center;
+	/*changing the way they are listed*/
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb (230,230,230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+
+
+
+#introduction p {
+	margin-bottom: 40px 
+	/*selecting the paragraph in the intro of the section and edit*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
